@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "buildai",
+  "version": "${version}",
+  "name": "Build AI",
+  "description": "Generiert Bauwerke per Prompt mit einer KI: /aibuild <beschreibung>",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["de.buildai.BuildAIMod"] },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
